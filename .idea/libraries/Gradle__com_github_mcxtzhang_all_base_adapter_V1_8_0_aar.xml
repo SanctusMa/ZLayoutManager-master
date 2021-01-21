@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.mcxtzhang:all-base-adapter:V1.8.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/c4214027d79e612f1cb758ce6ddec954/jetified-all-base-adapter-V1.8.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/c4214027d79e612f1cb758ce6ddec954/jetified-all-base-adapter-V1.8.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/c4214027d79e612f1cb758ce6ddec954/jetified-all-base-adapter-V1.8.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
