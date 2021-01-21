@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.1'
+    defaultConfig {
+        applicationId "com.mcxtzhang.flowlayoutmanager"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    //Adapter终结者 地址：https://github.com/mcxtzhang/all-base-adapter
+    implementation project(':layoutmanager')
+    implementation rootProject.ext.appcompat
+    //compile 'com.github.mcxtzhang:all-base-adapter:V1.3.0'
+    implementation rootProject.ext.cardview
+    implementation 'com.squareup.picasso:picasso:2.3.2'
+    implementation rootProject.ext.recyclerview
+}

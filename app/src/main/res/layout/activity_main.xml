@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="add"
+        android:text="增加"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="del"
+        android:text="删除"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnFlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="流式布局" />
+
+    <Button
+        android:id="@+id/btnCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拖拽删除卡片布局" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

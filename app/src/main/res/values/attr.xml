@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppRatio">
+        <attr name="appRatio" format="float" />
+        <attr name="appBaseOnWidth" format="boolean" />
+        <attr name="appMatchDrawableRatio" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AppCircleImg">
+        <attr name="appBorderWidth" format="dimension" />
+        <attr name="appBorderColor" format="color" />
+        <attr name="appRectOrCircle" format="boolean" />
+        <attr name="appRoundRadius" format="dimension" />
+    </declare-styleable>
+</resources>
